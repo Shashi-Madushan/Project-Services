@@ -1,10 +1,10 @@
 module.exports = {
     apps: [
-//        {
-//          name: "cloud-sql-auth-proxy",
-//          script: "./cloud-sql-proxy its-2130-eca-hdse-69-70-489518:asia-southeast1:mysql-vm its-2130-eca-hdse-69-70-489518:asia-southeast1:postgres-vm --private-ip",
-//          log_file: "./logs/cloud-sql-proxy.log",
-//        },
+        {
+          name: "cloud-sql-auth-proxy",
+          script: "./cloud-sql-proxy project-eaa010ce-98d6-49ee-ab7:asia-southeast1:mysql-eca-db-01 --private-ip",
+          log_file: "./logs/cloud-sql-proxy.log",
+        },
         {
             name: "iam-service",
             script: "java -jar iam-service/target/iam-service-1.0.0.jar",
